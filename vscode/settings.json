@@ -1,3 +1,17 @@
+	"git.autofetch": true,
+	"workbench.colorTheme": "Default Light+",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"frameIndentRainbow.colors": [
+		"hsla(312, 70%, 50%, 0.2)",
+		"hsla(250, 70%, 50%, 0.2)",
+		"hsla(191, 70%, 50%, 0.2)",
+		"hsla(20, 70%, 50%, 0.2)"
+	],
 	"workbench.colorCustomizations": {
 		"terminal.background":"#131212",
 		"terminal.foreground":"#dddad6",
@@ -17,4 +31,39 @@
 		"terminal.ansiRed":"#FB543F",
 		"terminal.ansiWhite":"#A89984",
 		"terminal.ansiYellow":"#FAC03B"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Ubuntu (WSL)": {
+			"path": "C:\\windows\\System32\\wsl.exe",
+			"args": [
+				"-d",
+				"Ubuntu"
+			]
+		}
+	},
+	"workbench.settings.applyToAllProfiles": [],
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
